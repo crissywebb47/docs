@@ -174,7 +174,8 @@ The following parameters can be used to specify information on the requested per
 | `company` | A name, website, or social url of a company where the person has worked | `Amazon Web Services` |
 | `school` | A name, website, or social url of a university or college the person has attended | `university of iowa` |
 | `phone` | A phone number the person has used | `+1 541-672 2910` |
-| `email` | An email the person has used | `renee.c.paulsen1959@yahoo.com` |  `e206e6cd7fa5f9499fd6d2d943dcf7d9c1469bad351061483f5ce7181663b8d4 ` |  
+| `email` | An email the person has used | `renee.c.paulsen1959@yahoo.com` |   
+| `email_hash` | A sha256 email hash | `e206e6cd7fa5f9499fd6d2d943dcf7d9c1469bad351061483f5ce7181663b8d4 ` |  
 | `profile` | A social profile the person has used. [List of available social profiles](https://github.com/peopledatalabs/docs/blob/master/data/profiles_network.json) | `https://linkedin.com/in/seanthorne` |  
 
 The minimum combination of data points a request must contain in order to have a possibility of returning a `200` response are:  
@@ -287,6 +288,7 @@ Fields which can be filtered/required are limited to:
 * `education.school`
 * `education.school.name`
 * `emails`
+* `emails.type`
 * `experience`
 * `experience.company`
 * `experience.company.name`
