@@ -1,5 +1,5 @@
 # REST API v4
- 
+## For a FREE API Key visit us at our [People Data Labs website](https://www.peopledatalabs.com)
 
 ### Overview 
 
